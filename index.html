@@ -1,60 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Questrial&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2a64a22438.js" crossorigin="anonymous"></script>
-    
+
 </head>
+
 <body>
-        <nav class="navbar">
-            <a href="index.html">
+    <nav class="navbar">
+        <a href="index.html">
             <div class="logo">
                 <div class="image">U</div>
                 <div>UMAR</div>
             </div>
         </a>
-            
-                <ul class="items">
-                    <a href="#main"><li>Home</li></a>
-                    <a href="#services"><li>About</li></a>
-                    <a href="#skills"><li>Skills</li></a>
-                    <a href="#projects"><li>Projects</li></a>
-                    <a href="#footer"><li>Contact us</li></a>
-                </ul>
 
-                <button id="toggle-menu"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                  </svg></button>
+        <ul class="items">
+            <a href="#main">
+                <li>Home</li>
+            </a>
+            <a href="#services">
+                <li>About</li>
+            </a>
+            <a href="#skills">
+                <li>Skills</li>
+            </a>
+            <a href="#projects">
+                <li>Projects</li>
+            </a>
+            <a href="#footer">
+                <li>Contact us</li>
+            </a>
+        </ul>
 
-                  <div class="dropdown">
-                    <a href="#main"><li>Home</li></a>
-                    <a href="#services"><li>About</li></a>
-                    <a href="#skills"><li>Skills</li></a>
-                    <a href="#projects"><li>Projects</li></a>
-                    <a href="#footer"><li>Contact us</li></a>
+        <button id="toggle-menu"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg></button>
 
-                  </div>
-            </nav>
-            <section id="main">
+        <div class="dropdown">
+            <a href="#main">
+                <li>Home</li>
+            </a>
+            <a href="#services">
+                <li>About</li>
+            </a>
+            <a href="#skills">
+                <li>Skills</li>
+            </a>
+            <a href="#projects">
+                <li>Projects</li>
+            </a>
+            <a href="#footer">
+                <li>Contact us</li>
+            </a>
 
-            <div id="left">
+        </div>
+    </nav>
+    <section id="main">
+
+        <div id="left">
 
             <h1>HI, IM UMAR! <br>CREATIVE</h1>
             <h1 class="developer">DEVELOPER</h1>
-            <p>I'm a passionate Web developer with a mission to create delightful and intuitive digital experiences. With a strong foundation in design principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.</p>
+            <p>I'm a passionate Web developer with a mission to create delightful and intuitive digital experiences.
+                With a strong foundation in design principles and a keen eye for detail, I specialize in translating
+                complex ideas into user-friendly interfaces that captivate and engage.</p>
 
-            <button class="btn">Download CV
+            <a href="images/RESUME.pdf" download="RESUME.pdf"><button class="btn">Download CV
                 <i class="fa-solid fa-right-to-bracket fa-rotate-90"></i>
-            </button>
+            </button></a>
         </div>
 
         <div id="right">
@@ -62,132 +88,154 @@
             <img src="images/profile.png" alt="profile">
         </div>
 
-            </section>
+    </section>
 
 
-            <section id="services">
-                <h4>MY SERVICES</h4>
-                <h1>Crafting stories through
-                    design and innovation</h1>
-                <div class="container">
-                    <div class="boxes anime">
-                        <span><svg xmlns="http://www.w3.org/2000/svg" height="120" viewBox="0 -960 960 960" width="48"><path fill="var(--green)" d="M390.769-536.462 480-581.077l89.231 44.615v-232.769H390.769v232.769ZM280-300v-40h200v40H280Zm-64.616 140q-23.057 0-39.221-16.163Q160-192.327 160-215.384v-529.232q0-23.057 16.163-39.221Q192.327-800 215.384-800h529.232q23.057 0 39.221 16.163Q800-767.673 800-744.616v529.232q0 23.057-16.163 39.221Q767.673-160 744.616-160H215.384Zm-24.615-609.231v578.462-578.462Zm24.615 578.462h529.232q9.23 0 16.923-7.692 7.692-7.693 7.692-16.923v-529.232q0-9.23-7.692-16.923-7.693-7.692-16.923-7.692H600v282.847l-120-60.001-120 60.001v-282.847H215.384q-9.23 0-16.923 7.692-7.692 7.693-7.692 16.923v529.232q0 9.23 7.692 16.923 7.693 7.692 16.923 7.692Z"/></svg></span>
-                        <h3>WEBSITE DESIGN</h3>
-                        <p>Nemo design enim ipsam voluptatem quim voluptas sit aspernatur aut odit auting fugit sed thisnquia consequuntur magni dolores eos designer heresm qui</p>
-                    </div>
-                    <div class="boxes anime">
-                        <span><svg xmlns="http://www.w3.org/2000/svg" height="120" viewBox="0 -960 960 960" width="48"><path fill="var(--green)" d="M480-151.538 103.846-603.077 212.308-820h535.384l108.462 216.923L480-151.538ZM344.923-615.385h270.154l-86.539-173.846h-97.076l-86.539 173.846Zm119.692 397.923v-367.153H159.923l304.692 367.153Zm30.77 0 305.461-367.153H495.385v367.153Zm154.384-397.923h164.462l-87.308-173.846H562.462l87.307 173.846Zm-503.23 0H311l86.538-173.846H233.077l-86.538 173.846Z"/></svg></span>
-                        <h3>LOGO DESIGN</h3>
-                        <p>Nemo design enim ipsam voluptatem quim voluptas sit aspernatur aut odit auting fugit sed thisnquia consequuntur magni dolores eos designer heresm qui</p>
-                    </div>
-                    <div class="boxes anime">
-                        <span><svg xmlns="http://www.w3.org/2000/svg" height="120" viewBox="0 -960 960 960" width="48"><path fill="var(--green)" d="m436.308-292.692 199.769-199-20.538-20.539-179.231 180-94.539-94.538L322-407l114.308 114.308ZM255.384-120q-23.057 0-39.221-16.163Q200-152.327 200-175.384v-609.232q0-23.057 16.163-39.221Q232.327-840 255.384-840h334.077L760-669.461v494.077q0 23.057-16.163 39.221Q727.673-120 704.616-120H255.384Zm318.693-535.538v-153.693H255.384q-9.23 0-16.923 7.692-7.692 7.693-7.692 16.923v609.232q0 9.23 7.692 16.923 7.693 7.692 16.923 7.692h449.232q9.23 0 16.923-7.692 7.692-7.693 7.692-16.923v-480.154H574.077ZM230.769-809.231v153.693-153.693 658.462-658.462Z"/></svg></span>
-                        <h3>TEST AUTOMATION</h3>
-                        <p>Nemo design enim ipsam voluptatem quim voluptas sit aspernatur aut odit auting fugit sed thisnquia consequuntur magni dolores eos designer heresm qui</p>
-                    </div>
-                </div>
-            </section>
-
-
-
-            <section id="skills">
-                <h4>EDUCATION AND SKLLS</h4>
-                <div id="wrap">
-                <div class="education">
-                    <div class="year">2021-2025</div>
-                    <h2>Iqra University</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id fuga aliquid dicta reprehenderit, nulla maxime.</p>
-                </div>
-                <div class="education">
-                    <div class="year">2018-2020</div>
-                    <h2>Adamjee Govt. College</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus repudiandae facere enim, doloremque officiis?</p>
-                </div>
-                <div class="education">
-                    <div class="year">2005-2018</div>
-                    <h2>Usman Public School System</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et consequuntur iste ducimus veniam odio nostrum.</p>
-                </div>
-                <div class="education">
-                    <div class="year">2019-2021</div>
-                    <h2>PIAIC</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nobis reiciendis provident eveniet, placeat in.</p>
-                </div>
-                
-                <div class="skillss">
-                    <p>HTML</p>
-                    <div class="meter">
-                        <div class="meters" data-target="95"></div>
-                    </div>
-                </div>
-                <div class="skillss">
-                    <p>CSS</p>
-                    <div class="meter">
-                        <div class="meters" data-target="95"></div>
-                    </div>
-                </div>
-                <div class="skillss">
-                    <p>Javascript</p>
-                    <div class="meter">
-                        <div class="meters" data-target="85"></div>
-                    </div>
-                </div>
-                <div class="skillss">
-                    <p>C++</p>
-                    <div class="meter">
-                        <div class="meters" data-target="68"></div>
-                    </div>
-                </div>
-                <div class="skillss">
-                    <p>Python</p>
-                    <div class="meter">
-                        <div class="meters" data-target="60"></div>
-                    </div>
-                </div>
-                <div class="skillss">
-                    <p>Java</p>
-                    <div class="meter">
-                        <div class="meters" data-target="75"></div>
-                    </div>
-                </div>
-                </div>
-                
-            </section>
-
-            <section id="projects">
-                <h4>PROJECTS</h4>
-                <h1></h1>
-
-            <div id="landingpage" class="hidden">
-                <div class="left">
-                    <h3>Responsive Landing Page</h3>
-                    <p>Responsive landing page, with scrolled triggered Animation everywhere. Created with HTML,CSS and JavaScript</p>
-                    <a href="https://umar-landingpage.000webhostapp.com/" target="_blank"><button class="btn">Live Demo</button></a>
-                </div>
-                <div class="right"></div>
+    <section id="services">
+        <h4>MY SERVICES</h4>
+        <h1>Crafting stories through
+            design and innovation</h1>
+        <div class="container">
+            <div class="boxes anime">
+                <span><svg xmlns="http://www.w3.org/2000/svg" height="120" viewBox="0 -960 960 960" width="48">
+                        <path fill="var(--green)"
+                            d="M390.769-536.462 480-581.077l89.231 44.615v-232.769H390.769v232.769ZM280-300v-40h200v40H280Zm-64.616 140q-23.057 0-39.221-16.163Q160-192.327 160-215.384v-529.232q0-23.057 16.163-39.221Q192.327-800 215.384-800h529.232q23.057 0 39.221 16.163Q800-767.673 800-744.616v529.232q0 23.057-16.163 39.221Q767.673-160 744.616-160H215.384Zm-24.615-609.231v578.462-578.462Zm24.615 578.462h529.232q9.23 0 16.923-7.692 7.692-7.693 7.692-16.923v-529.232q0-9.23-7.692-16.923-7.693-7.692-16.923-7.692H600v282.847l-120-60.001-120 60.001v-282.847H215.384q-9.23 0-16.923 7.692-7.692 7.693-7.692 16.923v529.232q0 9.23 7.692 16.923 7.693 7.692 16.923 7.692Z" />
+                    </svg></span>
+                <h3>WEBSITE DESIGN</h3>
+                <p>Nemo design enim ipsam voluptatem quim voluptas sit aspernatur aut odit auting fugit sed thisnquia
+                    consequuntur magni dolores eos designer heresm qui</p>
             </div>
-            <div id="restaurant" class="hidden">
-                <div class="left">
-                    <h3>Responsive Restaurant Website</h3>
-                    <p>Responsive website with multiple index pages, Simplified and user friendly. Created with HTML, CSS and Bootsrap3</p>
-                    <a href="https://umar123xposed.github.io/restaurant/" target="_blank"><button class="btn">Live Demo</button></a>
-                </div>
-                <div class="right"></div>
+            <div class="boxes anime">
+                <span><svg xmlns="http://www.w3.org/2000/svg" height="120" viewBox="0 -960 960 960" width="48">
+                        <path fill="var(--green)"
+                            d="M480-151.538 103.846-603.077 212.308-820h535.384l108.462 216.923L480-151.538ZM344.923-615.385h270.154l-86.539-173.846h-97.076l-86.539 173.846Zm119.692 397.923v-367.153H159.923l304.692 367.153Zm30.77 0 305.461-367.153H495.385v367.153Zm154.384-397.923h164.462l-87.308-173.846H562.462l87.307 173.846Zm-503.23 0H311l86.538-173.846H233.077l-86.538 173.846Z" />
+                    </svg></span>
+                <h3>LOGO DESIGN</h3>
+                <p>Nemo design enim ipsam voluptatem quim voluptas sit aspernatur aut odit auting fugit sed thisnquia
+                    consequuntur magni dolores eos designer heresm qui</p>
             </div>
-            <div id="calculator" class="hidden">
-                <div class="left">
-                    <h3>Simple Calculator</h3>
-                    <p>A simple Calculator web application which solves basic arithometic operations. Created with HTML, CSS and JavaScript</p>
-                    <a href="https://umar123xposed.github.io/calculator/" target="_blank"><button class="btn">Live Demo</button></a>
-                </div>
-                <div class="right"></div>
+            <div class="boxes anime">
+                <span><svg xmlns="http://www.w3.org/2000/svg" height="120" viewBox="0 -960 960 960" width="48">
+                        <path fill="var(--green)"
+                            d="m436.308-292.692 199.769-199-20.538-20.539-179.231 180-94.539-94.538L322-407l114.308 114.308ZM255.384-120q-23.057 0-39.221-16.163Q200-152.327 200-175.384v-609.232q0-23.057 16.163-39.221Q232.327-840 255.384-840h334.077L760-669.461v494.077q0 23.057-16.163 39.221Q727.673-120 704.616-120H255.384Zm318.693-535.538v-153.693H255.384q-9.23 0-16.923 7.692-7.692 7.693-7.692 16.923v609.232q0 9.23 7.692 16.923 7.693 7.692 16.923 7.692h449.232q9.23 0 16.923-7.692 7.692-7.693 7.692-16.923v-480.154H574.077ZM230.769-809.231v153.693-153.693 658.462-658.462Z" />
+                    </svg></span>
+                <h3>TEST AUTOMATION</h3>
+                <p>Nemo design enim ipsam voluptatem quim voluptas sit aspernatur aut odit auting fugit sed thisnquia
+                    consequuntur magni dolores eos designer heresm qui</p>
             </div>
-            
-            
-        </section>
+        </div>
+    </section>
 
-        <section class="animation-banner">
-            <div class="marquee">
+
+
+    <section id="skills">
+        <h4>EDUCATION AND SKLLS</h4>
+        <div id="wrap">
+            <div class="education">
+                <div class="year">2021-2025</div>
+                <h2>Iqra University</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id fuga aliquid dicta reprehenderit, nulla
+                    maxime.</p>
+            </div>
+            <div class="education">
+                <div class="year">2018-2020</div>
+                <h2>Adamjee Govt. College</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus repudiandae facere enim,
+                    doloremque officiis?</p>
+            </div>
+            <div class="education">
+                <div class="year">2005-2018</div>
+                <h2>Usman Public School System</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et consequuntur iste ducimus veniam odio
+                    nostrum.</p>
+            </div>
+            <div class="education">
+                <div class="year">2019-2021</div>
+                <h2>PIAIC</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nobis reiciendis provident eveniet,
+                    placeat in.</p>
+            </div>
+
+            <div class="skillss">
+                <p>HTML</p>
+                <div class="meter">
+                    <div class="meters" data-target="95"></div>
+                </div>
+            </div>
+            <div class="skillss">
+                <p>CSS</p>
+                <div class="meter">
+                    <div class="meters" data-target="95"></div>
+                </div>
+            </div>
+            <div class="skillss">
+                <p>Javascript</p>
+                <div class="meter">
+                    <div class="meters" data-target="85"></div>
+                </div>
+            </div>
+            <div class="skillss">
+                <p>C++</p>
+                <div class="meter">
+                    <div class="meters" data-target="68"></div>
+                </div>
+            </div>
+            <div class="skillss">
+                <p>Python</p>
+                <div class="meter">
+                    <div class="meters" data-target="60"></div>
+                </div>
+            </div>
+            <div class="skillss">
+                <p>Java</p>
+                <div class="meter">
+                    <div class="meters" data-target="75"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="projects">
+        <h4>PROJECTS</h4>
+        <h1></h1>
+
+        <div id="landingpage" class="hidden">
+            <div class="left">
+                <h3>Responsive Landing Page</h3>
+                <p>Responsive landing page, with scrolled triggered Animation everywhere. Created with HTML,CSS and
+                    JavaScript</p>
+                <a href="https://umar-landingpage.000webhostapp.com/" target="_blank"><button class="btn">Live
+                        Demo</button></a>
+            </div>
+            <div class="right"></div>
+        </div>
+        <div id="restaurant" class="hidden">
+            <div class="left">
+                <h3>Responsive Restaurant Website</h3>
+                <p>Responsive website with multiple index pages, Simplified and user friendly. Created with HTML, CSS
+                    and Bootsrap3</p>
+                <a href="https://umar123xposed.github.io/restaurant/" target="_blank"><button class="btn">Live
+                        Demo</button></a>
+            </div>
+            <div class="right"></div>
+        </div>
+        <div id="calculator" class="hidden">
+            <div class="left">
+                <h3>Simple Calculator</h3>
+                <p>A simple Calculator web application which solves basic arithometic operations. Created with HTML, CSS
+                    and JavaScript</p>
+                <a href="https://umar123xposed.github.io/calculator/" target="_blank"><button class="btn">Live
+                        Demo</button></a>
+            </div>
+            <div class="right"></div>
+        </div>
+
+
+    </section>
+
+    <section class="animation-banner">
+        <div class="marquee">
             <ul>
                 <li>* JAVASCRIPT</li>
                 <li>* WEB</li>
@@ -195,93 +243,128 @@
                 <li>* DESIGN</li>
                 <li>* WORLD</li>
             </ul>
-            </div>
+        </div>
 
-        </section>
+    </section>
 
-            <section class="down">
-                <div class="left hidden">
-                    <h1>Design and Innovation</h1>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit auting fugit sed thisnquia consequuntur magni dolores eos designer heresm qui ratione voluptatem sequi nesciuNeque porro quisquam est, oursqui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
-                    <div class="reviews">
-                        <div class="rev">
-                            <span><svg xmlns="http://www.w3.org/2000/svg" height="120" viewBox="0 -960 960 960" width="120"><path fill="var(--green)" d="M466-168v-304L200-626v286q0 8 4 15t12 12l250 145Zm28 0 250-145q8-5 12-12t4-15v-286L494-472v304Zm-44 23L202-288q-14-8-22-22t-8-30v-280q0-16 8-30t22-22l248-143q14-8 30-8t30 8l248 143q14 8 22 22t8 30v280q0 16-8 30t-22 22L510-145q-14 8-30 8t-30-8Zm175-435 118-68-247-143q-8-5-16-5t-16 5l-101 58 262 153Zm-145 84 117-68-263-152-117 68 263 152Z"/></svg></span>
-                        <h3 class="work" data-goal="31">0</h3>
+    <section class="down">
+        <div class="left hidden">
+            <h1>Design and Innovation</h1>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit auting fugit sed thisnquia consequuntur
+                magni dolores eos designer heresm qui ratione voluptatem sequi nesciuNeque porro quisquam est, oursqui
+                dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
+            <div class="reviews">
+                <div class="rev">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" height="120" viewBox="0 -960 960 960" width="120">
+                            <path fill="var(--green)"
+                                d="M466-168v-304L200-626v286q0 8 4 15t12 12l250 145Zm28 0 250-145q8-5 12-12t4-15v-286L494-472v304Zm-44 23L202-288q-14-8-22-22t-8-30v-280q0-16 8-30t22-22l248-143q14-8 30-8t30 8l248 143q14 8 22 22t8 30v280q0 16-8 30t-22 22L510-145q-14 8-30 8t-30-8Zm175-435 118-68-247-143q-8-5-16-5t-16 5l-101 58 262 153Zm-145 84 117-68-263-152-117 68 263 152Z" />
+                        </svg></span>
+                    <h3 class="work" data-goal="31">0</h3>
                     <p>Complete project</p>
                 </div>
-                        <div class="rev">
-                            <span><svg xmlns="http://www.w3.org/2000/svg" height="120" viewBox="0 -960 960 960" width="24"><path fill="var(--green)" d="m366-126-64-108-122-26 12-126-82-94 82-94-12-126 122-26 64-108 114 48 114-48 64 108 122 26-12 126 82 94-82 94 12 126-122 26-64 108-114-48-114 48Zm12-36 102-42 102 42 58-96 110-24-10-114 74-84-74-84 10-114-110-24-58-96-102 42-102-42-58 96-110 24 10 114-74 84 74 84-10 114 110 24 58 96Zm102-318Zm-42 106 190-190-20-20-170 170-86-86-20 20 106 106Z"/></svg></span>
-                        <h3 class="work" data-goal="85">0</h3>
+                <div class="rev">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" height="120" viewBox="0 -960 960 960" width="24">
+                            <path fill="var(--green)"
+                                d="m366-126-64-108-122-26 12-126-82-94 82-94-12-126 122-26 64-108 114 48 114-48 64 108 122 26-12 126 82 94-82 94 12 126-122 26-64 108-114-48-114 48Zm12-36 102-42 102 42 58-96 110-24-10-114 74-84-74-84 10-114-110-24-58-96-102 42-102-42-58 96-110 24 10 114-74 84 74 84-10 114 110 24 58 96Zm102-318Zm-42 106 190-190-20-20-170 170-86-86-20 20 106 106Z" />
+                        </svg></span>
+                    <h3 class="work" data-goal="85">0</h3>
                     <p>Client review</p>
                 </div>
-                    </div>
-                </div>
-                <div class="right anime">
-                    <h3>Get in touch with me?</h3>
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                    <input type="number" placeholder="Phone Number">
-                    <textarea name="message" rows="4" placeholder="Message"></textarea>
-                    <button class="btn">Submit Now</button>
-                </div>
-            </section>
-
-
-
-            <footer id="footer">
-                <div class="ending">
-                    <div class="end last">
-                        <div class="icons"> <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 -960 960 960" width="50"><path d="M200-120v-680h360l16 80h224v400H520l-16-80H280v280h-80Zm300-440Zm86 160h134v-240H510l-16-80H280v240h290l16 80Z"/></svg> </div>
-                <div>
-                    <h4>Address</h4>
-                <p>North karachi, karachi, Sindh, Pakistan. 75850</p>
-            </div>
-            </div>
-                    <div class="end last">
-                        <div class="icons"><svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 -960 960 960" width="50"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg></div>
-                <div>
-                    <h4>Lets talk</h4>
-                <p>+923132568944 <br> +923243253027</p>
-            </div>
-            </div>
-                    <div class="end last">
-                        <div class="icons"><svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 -960 960 960" width="50"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg></div>
-                <div>
-                    <h4>Send Email</h4>
-                <p>Umar.hussain2924@gmail.com</p>
             </div>
         </div>
+        <div class="right anime">
+            <h3>Get in touch with me?</h3>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="number" placeholder="Phone Number">
+            <textarea name="message" rows="4" placeholder="Message"></textarea>
+            <button class="btn">Submit Now</button>
+        </div>
+    </section>
+
+
+
+    <footer id="footer">
+        <div class="ending">
+            <div class="end last">
+                <div class="icons"> <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 -960 960 960"
+                        width="50">
+                        <path
+                            d="M200-120v-680h360l16 80h224v400H520l-16-80H280v280h-80Zm300-440Zm86 160h134v-240H510l-16-80H280v240h290l16 80Z" />
+                    </svg> </div>
+                <div>
+                    <h4>Address</h4>
+                    <p>North karachi, karachi, Sindh, Pakistan. 75850</p>
                 </div>
-                
-                <div id="social">
-                    <p id="copy" class="center">&copy; 2023 Umar Hussain. All Rights Reserved.</p>
-
-                    <ul>
-                        <li class="socialflex"><a href="https://www.facebook.com/umarhussain225" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                          </svg></a></li>
-                        <li class="socialflex"><a href="https://www.instagram.com/___umerr/?next=%2F" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-                          </svg></a></li>
-                        <li class="socialflex"><a href="twitter" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
-                          </svg></a></li>
-                        <li class="socialflex"><a href="https://www.linkedin.com/in/umar-hussain-967931269/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                          </svg></a></li>
-                          <li class="socialflex"><a href="https://github.com/umar123xposed" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                          </svg></a></li>
-                    </ul>
+            </div>
+            <div class="end last">
+                <div class="icons"><svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 -960 960 960"
+                        width="50">
+                        <path
+                            d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z" />
+                    </svg></div>
+                <div>
+                    <h4>Lets talk</h4>
+                    <p>+923132568944 <br> +923243253027</p>
                 </div>
-                
+            </div>
+            <div class="end last">
+                <div class="icons"><svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 -960 960 960"
+                        width="50">
+                        <path
+                            d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z" />
+                    </svg></div>
+                <div>
+                    <h4>Send Email</h4>
+                    <p>Umar.hussain2924@gmail.com</p>
+                </div>
+            </div>
+        </div>
 
-            </footer>
+        <div id="social">
+            <p id="copy" class="center">&copy; 2023 Umar Hussain. All Rights Reserved.</p>
+
+            <ul>
+                <li class="socialflex"><a href="https://www.facebook.com/umarhussain225" target="_blank"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg></a></li>
+                <li class="socialflex"><a href="https://www.instagram.com/___umerr/?next=%2F" target="_blank"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg></a></li>
+                <li class="socialflex"><a href="twitter" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                            <path
+                                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+                        </svg></a></li>
+                <li class="socialflex"><a href="https://www.linkedin.com/in/umar-hussain-967931269/"
+                        target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                        </svg></a></li>
+                <li class="socialflex"><a href="https://github.com/umar123xposed" target="_blank"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-github" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg></a></li>
+            </ul>
+        </div>
+
+
+    </footer>
 
 
 
-    
-            
+
+
     <script src="script.js"></script>
 </body>
+
 </html>
